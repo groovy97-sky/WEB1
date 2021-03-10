@@ -1,0 +1,45 @@
+<style>
+body{
+  margin:0;
+}
+a{
+  text-decoration:none;
+  color:cornflowerblue;
+}
+h1{
+  text-align: center;
+  font-size:46px;
+  border-bottom:1.5px solid gray;
+  margin:0;
+  padding:15px;
+  padding-bottom:20px;
+}
+#saw{
+  display:block;
+  border-right:1.5px solid gray;
+  margin:0;
+  width:90px;
+  padding: 20px;
+  padding-left:50px;
+  color:gray;
+  font-size:18px;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1000px;
+}
+#grid2{
+  padding-left:40px;
+}
+@media(max-width:700px){
+  #grid{
+    display: block;
+  }
+    #saw{
+      border-right: none;
+    }
+    h1{
+    border-bottom:none;
+    }
+}
+</style>
